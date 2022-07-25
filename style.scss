@@ -1,0 +1,63 @@
+body {
+   margin: 0;
+
+   // font-family: 'Montserrat', sans-serif;
+
+   font-family: "Nunito", sans-serif;
+   box-sizing: border-box;
+
+   background-color: #f9fbff;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+h1 {
+}
+
+p {
+   margin: 0;
+}
+
+.container {
+   max-width: 1430px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+button {
+   background: none;
+   padding: 0;
+   border: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+@import "blocks/vars";
+@import "blocks/preview";
+@import "blocks/build";
+@import "blocks/favorite";
+@import "blocks/bestgift";
+@import "blocks/combo";
+@import "blocks/footer";
